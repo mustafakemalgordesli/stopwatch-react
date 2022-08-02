@@ -2,6 +2,8 @@
 
 Create Stopwatch Using React.
 
+![screenshot of the app](/image.PNG "Screenshot of the app")
+
 ## Available Scripts
 
 In the project directory, you can run:
