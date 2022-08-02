@@ -18,7 +18,7 @@ function App() {
       interval = setInterval(() => {
         let tempSec = time.second + 1;
         let tempMin = time.minute + Math.floor(tempSec / 60);
-        let tempHour = time.hour + Math.floor(tempSec / 60);
+        let tempHour = time.hour + Math.floor(tempMin / 60);
         if (tempSec >= 60) tempSec -= 60;
         if (tempMin >= 60) tempMin -= 60;
         SetTime({
@@ -66,6 +66,11 @@ function App() {
 
   function handleClear() {
     setIsActive(false);
+    SetTime({
+      hour: 0,
+      minute: 0,
+      second: 0,
+    });
     SetShows({
       start: true,
       pause: false,
