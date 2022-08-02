@@ -2,7 +2,7 @@
 
 Create Stopwatch Using React.
 
-<img src="./image.PNG" />
+<img src="https://github.com/mustafakemalgordesli/stopwatch-react/blob/main/image.png" />
 
 ## Available Scripts
 
