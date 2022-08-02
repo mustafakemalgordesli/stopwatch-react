@@ -2,7 +2,7 @@
 
 Create Stopwatch Using React.
 
-![screenshot of the app](/image.PNG "Screenshot of the app")
+<img src="./image.PNG" />
 
 ## Available Scripts
 
